@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase 1 css</title>
+    <style>
+        h2{
+            color:aquamarine;
+            background-color:blue;
+            text-align:center;
+            text-decoration: underline;
+            letter-spacing: 20px;
+        }
+        h1{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+            font: size 70px;
+            font-style: italic;
+            font-weight: 100;
+            text-align: right;
+            text-decoration: overline;
+            word-spacing: 20px;
+        }
+        p{
+            font-size:60px ;
+            text-align: justify;
+            text-decoration: line-through;
+            text-transform:lowercase;
+
+        }
+        h1,h2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 300;
+        }
+        p strong{
+            color: bisque;
+        }
+        h1 strong{
+            color: aquamarine;background-color: azure;text-transform: uppercase;text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>responda el formulario</h2>
+    <form action="registrardatos.php" method="post">
+        <fieldset>
+        <legend></legend>
+        <label for="nombre">Ingrese su nombre:</label>
+        <input type="text" name="nombre" size="30" id="nombre"><br>
+        <label for="mail">Ingrese su mail:</label>
+        <input type="text" name="mail" size="50" id="mail"><br>
+        <label for="comentarios">Comentarios:</label><br>
+        <textarea name="comentarios" rows="5" cols="60" 
+        id="comentarios"></textarea> 
+        <br>
+        <input type="submit" value="Enviar">
+        </fieldset>
+      </form>
+    
+</body>
+</html>

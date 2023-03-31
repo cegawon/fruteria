@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    text-transform:uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fecha{
+    font-style: italic;
+    font-size: 100px;
+}
+#fecha2{
+    color: #FFC359;
+    text-align: right;
+    font-size: 150px;
+}
+.p{
+    border-width:5px ;
+    border-style:outset;
+    border-color:#0000ff ;
+}
+.r{
+    border-width:2px;
+    border-style:inset;
+    border-color:#38b6b4;
+}
+.a{
+    border-right-width:4px;
+    border-right-style:double ;
+    border-right-color:crimson ;
+}
+.b{
+    border-left-width:23px;
+    border-left-style:double ;
+    border-left-color:crimson ;
+}
+.c{
+    border-bottom: 15;
+    border-bottom-style:double ;
+    border-bottom-color:crimson ;
+}
+.d{
+    border-top: 10;
+    border-top-style:double ;
+    border-top-color:crimson ;
+}
+.pad{
+    padding-left:100px;
+}
+.m{
+    margin:100px;
+}
+.vacio{
+    list-style-type:  none; 
+}
+.circolorelleno{
+    list-style-type: disc;
+}
+.circulovacio{
+    list-style-type:circle ;
+}
+body{
+    background-image: url(lambo.jpg);
+    background-repeat: no-repeat;
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+}

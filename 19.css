@@ -1,0 +1,48 @@
+#menu{
+    font-family: initial;
+}
+#menu p{
+    margin: 0px;
+    padding: 0px;
+
+}
+#menu a{
+    display: block;
+    padding:3px ;
+    width: 160px;
+    background-color: tomato;
+    border-bottom: 1px solid black;
+    text-align: center;
+
+}
+#menu a:link, #menu a:visited{
+    color: tan;
+    text-decoration: none;
+}
+#menu a:hover{
+    color: linen;
+    background-color: darksalmon;
+}
+#menu2{
+    margin: 0px;
+    padding: 0px;
+    list-style-type:none ;
+}
+#menu2 a{
+    width: 160px;
+    text-decoration: none;
+    text-align: center;
+    color:blueviolet;
+    background-color: azure;
+    padding: 3px 5px;
+    border-right:1px solid blue;
+    display: block;
+
+}
+#menu2 li{
+    float:left;
+}
+#menu2 a:hover{
+    background-color: rgb(198, 195, 32);
+    color:grey;
+}

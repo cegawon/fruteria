@@ -1,0 +1,13 @@
+.subrayado {
+    color:#00aa00;
+    text-decoration:underline;
+    text-align: center;
+  }
+.tachado {
+  color:#00aa00;
+  text-decoration:line-through;
+  font-style:span;
+}
+p{
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+.imagen{
+    position:fixed;
+    width:10px;
+    height:10px;
+  
+  }
+  
+  #barrasuperior{
+      padding: 0px;
+  }
+  
+  #contenido{
+      padding-top: 470px;
+      margin-left: 30px;
+  }
+  p{
+      padding:  10px;
+  }

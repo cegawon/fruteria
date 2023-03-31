@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>clase 3</title>
+</head>
+<body>
+<form action="">
+<!-- radio -->
+<input type="radio" name="color" value="negro">negro <br>
+<input type="radio" name="color" value="rojo">rojo <br>
+<input type="radio" name="color" value="verde">verde  <br><br><br>
+<!-- select -->
+seleccione su pais:
+<select name="pais" id="pais">
+<option value="mexico">mexico</option>
+<option value="EE.UU">EE.UU</option>
+<option value="arabia saudita">arabia saudita</option>
+<option value="españa">españa</option>
+<option value="portugal">portugal</option>
+</select><br><br><br>
+<!-- select multiple -->
+seleccione su pais:
+<select name="pais[]" id="pais" size="1" multiple>
+<option value="mexico">mexico</option>
+<option value="EE.UU">EE.UU</option>
+<option value="arabia saudita">arabia saudita</option>
+<option value="españa">españa</option>
+<option value="portugal">portugal</option>
+</select><br><br><br>
+<!-- agrupamiento de opciones -->
+Seleccione una fruta o verdura:
+<select name="articulo">
+<optgroup label="Frutas">
+<option value="1">Naranjas</option>
+<option value="2">Manzanas</option>
+<option value="3">Sandia</option>
+<option value="4">Frutilla</option>
+<option value="5">Durazno</option>
+<option value="6">Ciruela</option>
+</optgroup>
+<optgroup label="Verduras">
+<option value="7">Lechuga</option>
+<option value="8">Acelga</option>
+<option value="9">Zapallo</option>
+<option value="10">Papas</option>
+<option value="11">Batatas</option>
+<option value="13">Zanahorias</option>
+<option value="14">Rabanitos</option>
+<option value="15">Calabaza</option>
+</optgroup>
+</select><br><br>
+<!-- input -->
+<input type="hidden" name="nombre" id="nombre" value="lucas">
+<input type="number" name="telefono" id="telefono">
+<input type="file"><br><br><br>
+<!-- agrupamiento de controles -->
+<fieldset>
+    <legend>Datos personales</legend>
+    nombre y apellidos:
+    <input type="text" name="nombre" id="nombre" value="lucas ramirez molina" maxlength="10"><br><br>
+    numeros de telefono:
+    <input type="number" name="telefono" id="telefono" value="1234567890234567890" readonly><br><br>
+    fecha de nacimiento:
+    <input type="date" name="fecha" id="fecha"><br><br>
+    <!-- select -->
+seleccione su pais:
+<select name="pais" id="pais">
+<option value="mexico">mexico</option>
+<option value="EE.UU">EE.UU</option>
+<option value="arabia saudita" selected>arabia saudita</option>
+<option value="españa">españa</option>
+<option value="portugal">portugal</option>
+</select><br><br>
+<textarea name="comentario" id="comentario" cols="60" rows="10" placeholder="escriba aqui su comentario"></textarea>
+</fieldset><br>
+
+</form>
+    
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #recuadro1{
+        width: 300px;
+        background-color: rgba(44, 210, 108, 0.667);
+        animation-name: lucas ;
+        animation-duration: 20s ;
+        position: relative;
+        animation-iteration-count: infinite;
+        animation-delay: 3s;
+        animation-direction:alternate;
+        animation-play-state: running;
+       
+    }
+    @keyframes lucas{
+        0%{
+        margin-left: 30px;
+        margin-top: 30px;
+        background-color: rgba(36, 151, 113, 0.674);
+        border-radius: 0px;
+        }
+        25%{
+            margin-left: 1000px;
+            margin-top: 30px;
+            background-color: rgb(226, 43, 73);
+            border-radius: 30px;
+        }
+        50%{ margin-left: 1000px;
+            margin-top: 500px;
+            background-color: rgb(26, 198, 14);
+            border-radius: 30px;
+
+        }
+        75%{
+            margin-left: 30px;
+            margin-top: 500px;
+            background-color: rgb(202, 222, 24);
+            border-radius: 30px;
+        }
+        100%{
+            margin-left: 30px;
+            margin-top: 30px;
+            background-color: rgb(226, 43, 73);
+            border-radius: 30px;
+        }
+
+    }
+    #recuadro2{
+        width: 300px;
+        background-color: rgba(44, 210, 108, 0.667); 
+        position: relative;
+        animation-iteration-count: infinite;
+        animation-delay: 3s;
+        animation-direction:alternate;
+        position: static;
+    }
+    
+</style>
+<body>
+    
+
+
+    <div id="recuadro1"> 
+        <h3>Recuadro 1</h3>
+        <p class="p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+            Aenean commodo ligula eget dolor.
+            Aenean massa. 
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, </p>
+        </div> 
+        <div id="recuadro2"> 
+            <h3>Recuadro 2</h3>
+            <p class="p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                Aenean commodo ligula eget dolor.
+                Aenean massa. 
+                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                Donec quam felis, ultricies nec, </p>
+            </div> 
+</body>
+</html>

@@ -1,0 +1,17 @@
+#contenedor1{
+    display: flex;
+    flex-direction:row-reverse;
+    height: 50px;
+    color:white;
+    font-size:2rem;
+  }
+  
+  #item1 {
+    background-color: #0078A6;
+  }
+  #item2 {
+    background-color: #0084B6;
+  }
+  #item3 {
+    background-color: #008CC1;
+  }
